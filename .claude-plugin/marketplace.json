@@ -1,0 +1,18 @@
+{
+  "name": "feasim-skills",
+  "owner": {
+    "name": "UHERO",
+    "url": "https://github.com/UHERO"
+  },
+  "metadata": {
+    "description": "Claude skills for working with UHERO's @uhero/feasim housing feasibility model"
+  },
+  "plugins": [
+    {
+      "name": "feasim",
+      "source": "./feasim",
+      "description": "Explains how UHERO's @uhero/feasim housing feasibility model works (v0.5.0): inputs, outputs, policy pathways, and why a parcel does or doesn't pencil.",
+      "version": "1.2.0"
+    }
+  ]
+}
